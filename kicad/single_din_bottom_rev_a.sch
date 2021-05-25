@@ -25,17 +25,6 @@ F 3 "https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf" H 5900 2750 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
-U 1 1 60A5EFFA
-P 5150 3350
-F 0 "#PWR0101" H 5150 3100 50  0001 C CNN
-F 1 "GND" H 5155 3177 50  0000 C CNN
-F 2 "" H 5150 3350 50  0001 C CNN
-F 3 "" H 5150 3350 50  0001 C CNN
-	1    5150 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0102
 U 1 1 60A5F63B
 P 5900 3400
@@ -199,7 +188,7 @@ F 3 "~" H 6600 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 3200 5150 3350
+	5150 3200 5150 3400
 $Comp
 L Device:CP_Small C1
 U 1 1 60A5AE8F
@@ -270,4 +259,15 @@ Wire Wire Line
 	7400 2050 5150 2050
 Wire Wire Line
 	5150 2050 5150 2750
+$Comp
+L power:GND #PWR0101
+U 1 1 60A5EFFA
+P 5150 3400
+F 0 "#PWR0101" H 5150 3150 50  0001 C CNN
+F 1 "GND" H 5155 3227 50  0000 C CNN
+F 2 "" H 5150 3400 50  0001 C CNN
+F 3 "" H 5150 3400 50  0001 C CNN
+	1    5150 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

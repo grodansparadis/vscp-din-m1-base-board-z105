@@ -1,0 +1,38 @@
+** Drc report for /home/akhe/development/VSCP/vscp-din-m1-base-board/kicad/single_din_bottom.kicad_pcb **
+** Created on 2022-06-15 14:45:58 **
+
+** Found 8 DRC violations **
+[invalid_outline]: Board has malformed outline (not a closed shape)
+    Local override; Severity: error
+    @(97,8916 mm, 180,0225 mm): Line on Edge.Cuts
+[invalid_outline]: Board has malformed outline (not a closed shape)
+    Local override; Severity: error
+    @(45,0469 mm, 166,1033 mm): Arc on Edge.Cuts
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; Severity: error
+    @(30,0000 mm, 180,0000 mm): Line on Edge.Cuts
+    @(42,0623 mm, 179,9971 mm): Line on Edge.Cuts
+[invalid_outline]: Board has malformed outline (not a closed shape)
+    Local override; Severity: error
+    @(100,9396 mm, 179,8574 mm): Arc on Edge.Cuts
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; Severity: error
+    @(100,9523 mm, 166,1030 mm): Arc on Edge.Cuts
+    @(48,0949 mm, 166,0017 mm): Line on Edge.Cuts
+[invalid_outline]: Board has malformed outline (not a closed shape)
+    Local override; Severity: error
+    @(116,0018 mm, 180,0098 mm): Line on Edge.Cuts
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; Severity: error
+    @(116,0000 mm, 166,0000 mm): Line on Edge.Cuts
+    @(104,0003 mm, 166,0017 mm): Line on Edge.Cuts
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; Severity: error
+    @(30,0000 mm, 166,0000 mm): Line on Edge.Cuts
+    @(30,0000 mm, 180,0000 mm): Line on Edge.Cuts
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
